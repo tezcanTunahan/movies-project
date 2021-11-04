@@ -1,0 +1,12 @@
+.homeCard {
+  height: 40vh;
+  width: 80vw;
+  background-color: rgb(181, 181, 236);
+  margin-top: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeCard p {
+  padding: 50px;
+}

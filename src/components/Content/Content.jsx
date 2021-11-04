@@ -3,7 +3,7 @@ import "./content.css";
 function Content() {
   return (
     <div>
-      <h1>Content</h1>
+      <h1>Pupuler Movies</h1>
     </div>
   );
 }
