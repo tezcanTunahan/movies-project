@@ -17,7 +17,7 @@ function App() {
       <Header />
       <HomeCard />
       <Movies />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

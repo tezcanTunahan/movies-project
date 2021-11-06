@@ -1,0 +1,16 @@
+.movieCard__container {
+  height: 30vh;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  margin: 10px;
+  width: 12vw;
+  border: 1px solid olive;
+  border-radius: 2px;
+}
+.card__img {
+  height: auto;
+  width: 100%;
+}
+.movie__title {
+  margin: 10px;
+}

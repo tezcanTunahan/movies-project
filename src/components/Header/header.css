@@ -1,11 +1,12 @@
 .header {
   color: white;
   background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
-  height: 10vh;
+  height: 8vh;
   position: fixed;
   top: 0px;
   width: 100vw;
   z-index: 99;
+  transition: all 1s 0.1s;
 }
 .scrolled {
   background-color: black;
