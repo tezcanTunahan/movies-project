@@ -1,12 +1,13 @@
 .header {
   color: white;
-  background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+  background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.5) 80%);
   height: 8vh;
   position: fixed;
   top: 0px;
   width: 100vw;
   z-index: 99;
   transition: all 1s 0.1s;
+  font-family: "Kaushan Script", cursive;
 }
 .scrolled {
   background-color: black;
@@ -32,4 +33,14 @@
 }
 .right h3 {
   padding: 15px;
+}
+
+.link {
+  color: white;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.link:hover {
+  color: red;
+  transition: all 1s 0.2s;
 }

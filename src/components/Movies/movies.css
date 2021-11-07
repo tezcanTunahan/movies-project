@@ -1,6 +1,7 @@
 .moviesOutside__container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 200px;
   width: 80vw;
   height: auto;
   flex-wrap: wrap;
@@ -8,5 +9,7 @@
   justify-content: center;
 }
 .categoryName {
-  margin-top: 30px;
+  margin-top: 40px;
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 2px;
 }

@@ -1,11 +1,13 @@
 .homeCard {
   height: 40vh;
   width: 80vw;
-  background-color: rgb(181, 181, 236);
+  background-color: rgb(97, 97, 97);
+  color: white;
   margin-top: 17vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Ubuntu", sans-serif;
 }
 .homeCard p {
   padding: 50px;

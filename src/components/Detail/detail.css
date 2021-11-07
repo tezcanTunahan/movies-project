@@ -1,6 +1,31 @@
 .detail__container {
-  height: 92vh;
+  height: 100vh;
+  width: 100vw;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.detail__movie__title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.detail__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 80vh;
+}
+.poster__img {
+  height: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .left__img {
+    width: 200px;
+  }
 }
