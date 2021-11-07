@@ -28,4 +28,17 @@
   .left__img {
     width: 200px;
   }
+  .detail__container {
+    height: 120vh;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .detail__container {
+    height: 120vh;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
 }
