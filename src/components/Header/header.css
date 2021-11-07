@@ -29,5 +29,7 @@
   height: 8vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+.right h3 {
+  padding: 15px;
 }

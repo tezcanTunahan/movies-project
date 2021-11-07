@@ -15,8 +15,8 @@ function Movies() {
       {
         <div className="moviesOutside__container">
           {movieArr
-            ? movieArr.map((movie) => (
-                <MovieCard movie={movie} key={movie.id} />
+            ? movieArr.map((movie, idx) => (
+                <MovieCard movie={movie} key={movie.id} idx={idx} />
               ))
             : "no item"}
         </div>

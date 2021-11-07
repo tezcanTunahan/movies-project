@@ -1,4 +1,4 @@
-export default (movies = [], action) => {
+export default function moviesReducer(movies = [], action) {
   switch (action.type) {
     case "FETCH_ALL":
       return action.payload;
@@ -6,4 +6,4 @@ export default (movies = [], action) => {
     default:
       return movies;
   }
-};
+}

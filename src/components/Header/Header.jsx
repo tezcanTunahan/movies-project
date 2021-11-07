@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +17,12 @@ function Header() {
           <h1>MOVIES</h1>
         </div>
         <div className="right">
-          <h3>MENU</h3>
+          <NavLink to="/about">
+            <h3>ABOUT</h3>
+          </NavLink>
+          <NavLink to="/">
+            <h3>MENU</h3>
+          </NavLink>
         </div>
       </div>
     </header>
