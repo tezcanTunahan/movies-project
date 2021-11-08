@@ -1,5 +1,8 @@
-link to site : https://moviess1.netlify.app/ 
+link to site : https://moviess1.netlify.app/
+
 https://www.themoviedb.org/ for the movie api 
+
+
 show the popular movies with some info
 
 
