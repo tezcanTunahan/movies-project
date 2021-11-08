@@ -41,7 +41,9 @@ function Detail() {
           {" "}
           released date: {movie ? movie.release_date : "cant matched movie"}
         </p>
-        <p> {movie ? movie.vote_average : "cant matched movie"} /10</p>
+        <p>
+          Average score: {movie ? movie.vote_average : "cant matched movie"} /10
+        </p>
       </div>
     </div>
   );

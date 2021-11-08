@@ -9,6 +9,15 @@
   transition: all 1s 0.1s;
   font-family: "Kaushan Script", cursive;
 }
+.link__logo {
+  color: rgb(165, 104, 104);
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.link__logo:hover {
+  color: red;
+  transition: all 1s 0.2s;
+}
 .scrolled {
   background-color: black;
   transition: all 2s 0.1s;
@@ -43,4 +52,14 @@
 .link:hover {
   color: red;
   transition: all 1s 0.2s;
+}
+
+@media screen and (max-width: 483px) {
+  .right h3 {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .link__logo {
+    font-size: 12px;
+  }
 }

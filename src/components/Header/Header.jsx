@@ -14,7 +14,9 @@ function Header() {
     <header className={isScrolled ? "header scrolled" : "header"}>
       <div className="header__container">
         <div className="left">
-          <h1>MOVIES</h1>
+          <NavLink to="/" className="link__logo">
+            <h1>MOVIES</h1>
+          </NavLink>
         </div>
         <div className="right">
           <NavLink className="link" to="/about">
