@@ -1,3 +1,14 @@
+link to site : https://moviess1.netlify.app/
+
+https://www.themoviedb.org/ for the movie api 
+
+
+show the popular movies with some info
+
+
+
+![Screenshot (110)](https://user-images.githubusercontent.com/84778158/140756125-2acdfe88-08fa-4906-9ba1-f3ca54be1625.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
