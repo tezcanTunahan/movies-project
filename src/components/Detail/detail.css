@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 490px) {
   .detail__container {
-    height: 120vh;
+    height: 180vh;
     flex-direction: column;
     margin-top: 50px;
     justify-content: space-around;
